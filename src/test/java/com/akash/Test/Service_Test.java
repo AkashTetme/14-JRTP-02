@@ -55,8 +55,6 @@ public class Service_Test {
 	public void contactService_Test1() {
 
 		String contactNameByID = service.getContactNameByID(101);
-		String encryptText = EDapp.encryptText(contactNameByID);
-		System.out.println("Result of contactService_Test1 : "+ encryptText);
 		assertNotNull(contactNameByID);
 	}
 	
